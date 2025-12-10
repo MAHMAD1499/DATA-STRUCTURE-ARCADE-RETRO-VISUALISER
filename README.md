@@ -124,7 +124,7 @@ Prerequisites: Ensure you have Python installed.
 
 Place your own background music file in the project root.
 
-Rename it to background_music.mp3 (or update the filename config in the script).
+Rename it to background_music.mp3 (or update the file name config in the script).
 
 *_Run the App ._*
 
