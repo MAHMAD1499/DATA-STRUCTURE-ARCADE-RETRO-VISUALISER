@@ -2,6 +2,8 @@
 
 A gamified 🕹️, retro-styled learning platform for Data Structures and Algorithms.
 
+<img width="1351" height="652" alt="Screenshot from 2025-12-11 12-01-51" src="https://github.com/user-attachments/assets/fe0ae04f-37e1-40d2-a557-b0f4ced35782" />
+
 # About The Project
 
 This project reimagines standard Computer Science visualizations as an 80s arcade game. Instead of boring diagrams, users interact with a CRT-styled interface 📺 complete with scanlines, neon glows and synthesized sound effects. The application serves as both a visualizer and a game, challenging users to perform data operations (like Push, Pop, Enqueue, Dequeue) under time pressure while maintaining the correct data structure logic (LIFO vs. FIFO).
