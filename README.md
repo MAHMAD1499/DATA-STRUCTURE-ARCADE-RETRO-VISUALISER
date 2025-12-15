@@ -124,7 +124,10 @@ Prerequisites: Ensure you have Python installed.
 
 *_Music Setup 🎵:_*
 
-Place your own background music file in the project root.
+Place your own background music file in the project root or you can just find a this line of code in row 9 or 10. Here you just have to provide the path of the the music file.
+
+<img width="1454" height="212" alt="image" src="https://github.com/user-attachments/assets/ac4ec362-077e-4fbe-a0f2-edafc00e58c6" />
+
 
 Rename it to background_music.mp3 (or update the file name config in the script).
 
