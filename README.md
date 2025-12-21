@@ -2,7 +2,7 @@
 
 A gamified 🕹️, retro-styled learning platform for Data Structures and Algorithms.
 
-<img width="1351" height="652" alt="Screenshot from 2025-12-11 12-01-51" src="https://github.com/user-attachments/assets/fe0ae04f-37e1-40d2-a557-b0f4ced35782" />
+<img width="1363" height="651" alt="Screenshot from 2025-12-21 18-19-26" src="https://github.com/user-attachments/assets/02fa829c-d1d7-4944-8605-014a99ab1587" />
 
 # About The Project
 
