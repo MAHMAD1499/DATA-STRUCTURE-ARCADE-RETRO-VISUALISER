@@ -3,8 +3,12 @@ import os
 
 app = Flask(__name__)
 
-# --- CONFIGURATION ---
-MUSIC_FILENAME = '/home/mahmad1499/Downloads/retro-arcade-game-music-297305.mp3' 
+import os
+# This gets the folder where your Python script is currently running
+base_dir = os.path.dirname(os.path.abspath(__file__))
+
+# This creates the correct path to your music file
+MUSIC_FILENAME = os.path.join(base_dir, 'static', 'music.mp3')
 
 # --- RETRO ARCADE TEMPLATE ---
 APP_TEMPLATE = """
