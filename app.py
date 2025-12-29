@@ -198,7 +198,7 @@ APP_TEMPLATE = """
 
         function startMusic() {
             if (bgmAudio) return;
-            bgmAudio = new Audio('/music');
+            bgmAudio = new Audio('/static/music.mp3');
             bgmAudio.loop = true; bgmAudio.volume = 0.5;
             bgmAudio.play().catch(e => console.log("Autoplay blocked"));
         }
@@ -747,13 +747,6 @@ APP_TEMPLATE = """
 @app.route('/')
 def home():
     return Response(APP_TEMPLATE, mimetype='text/html')
-
-@app.route('/music')
-def serve_music():
-    try:
-        return send_file(MUSIC_FILENAME)
-    except FileNotFoundError:
-        return "Music file not found", 404
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
