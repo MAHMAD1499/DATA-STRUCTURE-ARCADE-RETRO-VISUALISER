@@ -2,8 +2,6 @@ from flask import Flask, Response, send_file
 import os
 
 app = Flask(__name__)
-
-import os
 # This gets the folder where your Python script is currently running
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
