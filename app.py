@@ -198,9 +198,8 @@ APP_TEMPLATE = """
 
         function startMusic() {
             if (bgmAudio) return;
-// This loads the song directly from GitHub's raw server. 
-// It works 100% of the time, regardless of where your folders are.
-bgmAudio = new Audio('https://raw.githubusercontent.com/MAHMAD1499/data-structure-arcade-retro-visualizer/main/static/music.mp3');            bgmAudio.loop = true; bgmAudio.volume = 0.5;
+            // CORRECT LINK (With 'VISUALISER' - spelled with an S)
+bgmAudio = new Audio('https://raw.githubusercontent.com/MAHMAD1499/DATA-STRUCTURE-ARCADE-RETRO-VISUALISER/main/static/music.mp3');bgmAudio.loop = true; bgmAudio.volume = 0.5;
             bgmAudio.play().catch(e => console.log("Autoplay blocked"));
         }
         function stopMusic() { if (bgmAudio) { bgmAudio.pause(); bgmAudio.currentTime = 0; } }
